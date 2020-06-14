@@ -1,0 +1,30 @@
+.nav {
+    width:45%;
+}
+
+.nav ul {
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+}
+
+.nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+.nosotros{
+    display: none;
+}
+@media (min-width: 768px){
+    .nosotros{
+        display: block;
+    }   
+    .nav {
+        width:30%;
+    }
+}

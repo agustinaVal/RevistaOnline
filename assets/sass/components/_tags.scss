@@ -1,0 +1,17 @@
+
+.tags {
+    border-bottom: 1px solid gray;
+    padding:10px;
+}
+
+.tags ul {
+    padding: 5px;
+    list-style: none;
+}
+
+.tags ul li {
+    padding: 2px 4px;
+    background-color: steelblue;
+    color: white;
+    display: inline-block; 
+}

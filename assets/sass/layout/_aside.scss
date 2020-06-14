@@ -1,0 +1,24 @@
+.noticia {
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+
+.noticias-destacadas {
+    margin-bottom: 50px;
+}
+.cabecera-listado {
+    border-bottom: 1px solid gray;
+}
+.listado-izquierdo{
+    padding: 0px 30px;
+    display:none;
+}
+
+@media (min-width: 768px){
+    .listado-izquierdo{
+        display:block;
+    }
+}
